@@ -6,3 +6,4 @@ let year = 3;
 year = year + 1;
 console.log (`I am in year: ${year}`)
 
+// this is a comment
