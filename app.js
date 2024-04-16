@@ -41,11 +41,11 @@ console.log('This is Pascal casing: PersonFirstName');
 
 /* variables and expresions */
 let name1 = 'John'; // Declaring a variable 'name' and assigning a string value
-const age = 30; // Declaring a constant 'age' with a numeric value
+let age_john = 30; // Declaring a constant 'age' with a numeric value
 
 console.log('the name is: ', name1);
-console.log('the age is --> ', age);
-console.log(age);
+console.log('the age is --> ', age_john);
+console.log(age_john);
 
 /* Control Structures: Conditionals and Loops */
 let hour = 10;
@@ -85,5 +85,73 @@ for (let i = 0; i < 5; i++) {
                 };
 
                 console.log(person.name,person.age,person.hobbies);
+                /*  Array example */
+                let numbers = [1, 2, 3, 4, 5];
+                console.log(numbers[2]); 
 
-    
+                 /* Data types */
+                /* 1. Primitive Data Types
+a. Numbers
+JavaScript uses the `number` type to represent both integers and floating-point numbers. */
+        // examples
+        let integerNumber = 10;
+        let floatNumber = 3.14;  
+        console.log("let the number be : 10")
+            
+        let sum = 5 + 10;
+        console.log(sum)
+
+        let numberString = '42';let convertedNumber = Number(numberString);
+
+        let message = 'Hello' + ' ' + 'world';
+        console.log(message)
+
+        let difference = 20 - 8;
+        console.log(difference)
+      
+        let quotient = 15 / 3;
+        console.log(quotient)
+        
+        let remainder = 10 % 3;
+        console.log(remainder)
+
+         numberString = '42';
+         convertedNumber = Number(numberString); 
+
+        console.log(convertedNumber)
+
+        let product = 5 * 4;
+        console.log(product) 
+
+        let counter = 5;
+        counter++;
+        console.log(counter) 
+        counter--;
+        console.log(counter)
+
+        let isEqual = 5 == '5'; 
+        console.log(isEqual)
+
+        let isNotEqual = 5 != '10';
+        console.log(isNotEqual)
+
+        let isStrictEqual = 5 === '5';
+        console.log(isStrictEqual)
+
+        let isStrictNotEqual = 5 !== '10';
+        console.log(isStrictNotEqual)
+
+        let isTrue = true
+        let isFalse = false;
+        let logicalAnd = isTrue && isFalse;
+        console.log(logicalAnd);
+
+        let logicalOr = isTrue || isFalse;
+        console.log(logicalOr)
+
+        let logicalNot = !isTrue;
+        console.log(logicalNot)
+
+        let age = 20;
+        let allowed = (age <= 18) ? 'Allowed' : 'Not allowed';
+        console.log('my result ---> :', age, allowed)
