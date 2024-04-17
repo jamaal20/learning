@@ -155,3 +155,36 @@ JavaScript uses the `number` type to represent both integers and floating-point 
         let age = 20;
         let allowed = (age <= 18) ? 'Allowed' : 'Not allowed';
         console.log('my result ---> :', age, allowed)
+
+        let x = 10;
+        x += 5;
+        console.log(x)
+
+         isEqual = 5 == '5';
+        console.log(isEqual)
+
+        let isGreaterThan = 10 > 5;
+        console.log(isGreaterThan )
+
+
+        let num = 10;
+        if (num > 0){
+            console.log('Number is positive');   
+        }
+
+        let temperature = 25;
+        if (temperature < 30){
+            console.log('It\'s hot outside');
+        }else{
+            console.log('It\'s moderate temperature');
+        }
+
+         hour = 14;
+         if (hour < 12){
+            console.log('Good morning');
+         } else if (hour >= 12 && hour < 18){
+            console.log('Good afternoon');
+         }else{
+            console.log('Good evening');
+         }
+            
