@@ -187,4 +187,14 @@ JavaScript uses the `number` type to represent both integers and floating-point 
          }else{
             console.log('Good evening');
          }
+
+         switch('0') {
+            case '0':
+                console.log('zero was logged.');
+            break;
+            case 1:
+                console.log('this is a number');
+            break;
+            default: console.log('No match was found.');
+         }
             
