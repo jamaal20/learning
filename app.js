@@ -197,4 +197,19 @@ JavaScript uses the `number` type to represent both integers and floating-point 
             break;
             default: console.log('No match was found.');
          }
+
+         let day = 'Monday';
+switch (day) {
+case 'Monday':
+console.log('Start of the week');
+break;
+case 'Tuesday':
+console.log('Second day of the week');
+break;
+case 'Wednesday':
+console.log('Middle of the week');
+break;
+default:
+console.log('Another day of the week');
+}
             
