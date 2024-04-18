@@ -211,5 +211,4 @@ console.log('Middle of the week');
 break;
 default:
 console.log('Another day of the week');
-}
-            
+}            
