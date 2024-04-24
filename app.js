@@ -212,13 +212,4 @@ break;
 default:
 console.log('Another day of the week');
 }
-
-function add(a, b) {
-    console.log(a+b)
-    } 
-    add("a+b");
-
-    function greet(name){
-        console.log("Hello, " + name + "!");
-    } 
-    greet("guest");
+            
